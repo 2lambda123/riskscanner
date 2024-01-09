@@ -1,0 +1,1242 @@
+repo_name: 2lambda123/riskscanner
+report_id: 6a3a5bb67ac6a2e1e504cdf41ef08901
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-09T06:53:15+00:00'
+requested_by: liqiang-fit2cloud
+provider: github
+branch: master
+detected_tools_count: 86
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/2lambda123/riskscanner
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/2lambda123/riskscanner
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/2lambda123/riskscanner
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/src/main/resources/db/migration/V10__insert_tencent_rule.sql
+  detection_source: backend/src/main/resources/db/migration/V10__insert_tencent_rule.sql
+  last_updated_by: maguohao2018
+  last_updated_on: 2021-03-02 13:07:10.000000000 Z
+- name: ECharts
+  description: 'A free, powerful charting and visualization library '
+  website_url: https://echarts.apache.org/en/index.html
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Charting Libraries
+  image_url: https://img.stackshare.io/service/4230/aSzYQa43_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: maguohao2018
+  last_updated_on: 2021-02-10 08:53:44.000000000 Z
+- name: Less
+  description: The dynamic stylesheet language
+  website_url: http://lesscss.org/
+  version: 4.1.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1170/default_957cbc0168b4d37265e264469c888f776e57f42c.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: maguohao2018
+  last_updated_on: 2021-02-10 08:53:44.000000000 Z
+- name: Prototype
+  description: Prototype JavaScript framework
+  website_url: http://prototypejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/3597/o_bigger_400x400.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: 咪了个喵的小土豆
+  last_updated_on: 2021-06-15 10:53:28.000000000 Z
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+  last_updated_by: 咪了个喵的小土豆
+  last_updated_on: 2021-05-26 09:39:24.000000000 Z
+- name: Vue.js
+  description: A progressive framework for building user interfaces
+  website_url: http://vuejs.org/
+  version: 2.6.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/3837/paeckCWC.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: maguohao2018
+  last_updated_on: 2021-02-10 08:53:44.000000000 Z
+- name: guava
+  description: Google Core Libraries for Java 6+
+  website_url: https://github.com/google/guava
+  version: '20.0'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/2970/wBjKn0ol.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+  last_updated_by: 咪了个喵的小土豆
+  last_updated_on: 2021-06-15 10:53:28.000000000 Z
+- name: vuex
+  description: Centralized State Management for Vue.js.
+  website_url: https://vuex.vuejs.org
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/6705/6128107.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: maguohao2018
+  last_updated_on: 2021-02-10 08:53:44.000000000 Z
+- name: Google Cloud Storage
+  description: Durable and highly available object storage service
+  website_url: https://cloud.google.com/products/cloud-storage/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Cloud Storage
+  image_url: https://img.stackshare.io/service/694/Cloud_Storage.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+  last_updated_by: 咪了个喵的小土豆
+  last_updated_on: 2021-06-25 08:46:40.000000000 Z
+- name: MyBatis
+  description: SQL Mapper Framework for Java
+  website_url: http://www.mybatis.org/mybatis-3/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/5582/1483254.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+  last_updated_by: maguohao2018
+  last_updated_on: 2021-02-10 08:53:44.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+  last_updated_by: maguohao2018
+  last_updated_on: 2021-02-10 08:53:44.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/frontend/babel.config.js
+  detection_source: frontend/babel.config.js
+  last_updated_by: maguohao2018
+  last_updated_on: 2021-02-10 08:53:44.000000000 Z
+- name: CodeMirror
+  description: A versatile text editor implemented in JavaScript for the browser
+  website_url: http://codemirror.net/
+  version: 5.58.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Text Editor
+  image_url: https://img.stackshare.io/service/2490/E_fCaAi6.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: maguohao2018
+  last_updated_on: 2021-02-10 08:53:44.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/2lambda123/riskscanner
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: maguohao2018
+  last_updated_on: 2021-02-10 08:53:44.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/riskscanner
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/.github/workflows/release.yml
+  detection_source: ".github/workflows/release.yml"
+  last_updated_by: wojiushixiaobai
+  last_updated_on: 2021-07-01 02:52:40.000000000 Z
+- name: Logback
+  description: A logging framework for Java applications
+  website_url: https://logback.qos.ch/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/src/main/resources/logback.xml
+  detection_source: backend/src/main/resources/logback.xml
+  last_updated_by: maguohao2018
+  last_updated_on: 2021-02-10 08:53:44.000000000 Z
+- name: highlight.js
+  description: Syntax highlighter in JavaScript
+  website_url: https://highlightjs.org/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Text Editor
+  image_url: https://img.stackshare.io/service/6888/c17e7d9688d86bd9f9506ec1fbd6d200_400x400.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: maguohao
+  last_updated_on: 2021-09-28 08:52:37.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: maguohao2018
+  last_updated_on: 2021-02-10 08:53:44.000000000 Z
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/src/main/resources/application.properties
+  detection_source: backend/src/main/resources/application.properties
+  last_updated_by: maguohao2018
+  last_updated_on: 2021-02-10 08:53:44.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/2lambda123/riskscanner
+  detection_source: Repo Metadata
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.19.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: maguohao2018
+  last_updated_on: 2021-02-10 08:53:44.000000000 Z
+- name: com.alibaba:fastjson
+  description: Fastjson is a JSON processor
+  version: 1.2.72
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+  last_updated_by: 咪了个喵的小土豆
+  last_updated_on: 2021-06-25 08:46:40.000000000 Z
+  vulnerabilities:
+  - name: Unsafe deserialization in com.alibaba:fastjson
+    cve_id: CVE-2022-25845
+    cve_url: https://github.com/advisories/GHSA-pv7h-hx5h-mgfj
+    detected_date: Jun 17
+    severity: high
+    first_patched: 1.2.83
+- name: com.aliyun:aliyun-java-sdk-core
+  description: Aliyun Open API SDK for Java Copyright
+  version: 4.5.20
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+  last_updated_by: 咪了个喵的小土豆
+  last_updated_on: 2021-06-25 08:46:40.000000000 Z
+- name: com.amazonaws:aws-java-sdk-ec2
+  description: The AWS Java SDK for Amazon EC2 module holds the client classes that
+    are used for communicating with Amazon EC2 Service
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+  last_updated_by: 咪了个喵的小土豆
+  last_updated_on: 2021-06-25 08:46:40.000000000 Z
+- name: com.atlassian.commonmark:commonmark
+  description: Core of commonmark-java
+  version: 0.15.2
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+  last_updated_by: maguohao
+  last_updated_on: 2021-07-23 10:26:42.000000000 Z
+- name: com.github.pagehelper:pagehelper
+  description: Mybatis Pagination Plugin
+  version: 5.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+  last_updated_by: 咪了个喵的小土豆
+  last_updated_on: 2021-06-25 08:46:40.000000000 Z
+  vulnerabilities:
+  - name: MyBatis PageHelper vulnerable to time-blind SQL injection via orderBy parameter
+    cve_id: CVE-2022-28111
+    cve_url: https://github.com/advisories/GHSA-w559-623p-vfg8
+    detected_date: Oct 21
+    severity: critical
+    first_patched: 5.3.1
+- name: com.google.cloud:google-cloud-storage
+  description: Java idiomatic client for Google Cloud Storage
+  version: 1.115.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+  last_updated_by: 咪了个喵的小土豆
+  last_updated_on: 2021-06-25 08:46:40.000000000 Z
+- name: com.google.code.gson:gson
+  description: Gson JSON library
+  version: 2.8.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+  last_updated_by: maguohao
+  last_updated_on: 2021-07-23 10:26:42.000000000 Z
+  vulnerabilities:
+  - name: Deserialization of Untrusted Data in Gson
+    cve_id: CVE-2022-25647
+    cve_url: https://github.com/advisories/GHSA-4jrv-ppp4-jm57
+    detected_date: May 21
+    severity: high
+    first_patched: 2.8.9
+- name: com.google.guava:guava
+  description: Guava is a suite of core and expanded libraries that include utility
+    classes
+  version: '20.0'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+  last_updated_by: 咪了个喵的小土豆
+  last_updated_on: 2021-06-25 08:46:40.000000000 Z
+  vulnerabilities:
+  - name: Guava vulnerable to insecure use of temporary directory
+    cve_id: CVE-2023-2976
+    cve_url: https://github.com/advisories/GHSA-7g45-4rm6-3mm3
+    detected_date: Jun 15
+    severity: moderate
+    first_patched: 32.0.0-android
+  - name: Denial of Service in Google Guava
+    cve_id: CVE-2018-10237
+    cve_url: https://github.com/advisories/GHSA-mvr2-9pj6-7w5j
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 24.1.1-android
+  - name: Information Disclosure in Guava
+    cve_id: CVE-2020-8908
+    cve_url: https://github.com/advisories/GHSA-5mg8-w23w-74h3
+    detected_date: Aug 22
+    severity: low
+    first_patched: 32.0.0-android
+- name: com.microsoft.azure:azure-client-runtime
+  description: This is the client runtime for AutoRest generated Azure Java clients
+  version: 1.7.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+  last_updated_by: 咪了个喵的小土豆
+  last_updated_on: 2021-06-25 08:46:40.000000000 Z
+- name: com.netflix.ribbon:ribbon-core
+  description: Ribbon-core
+  version: 2.2.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+  last_updated_by: 咪了个喵的小土豆
+  last_updated_on: 2021-06-25 08:46:40.000000000 Z
+- name: com.nimbusds:oauth2-oidc-sdk
+  description: OAuth 2.0 SDK with OpenID Connection extensions for developing client
+    and server applications
+  version: '7.4'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+  last_updated_by: 咪了个喵的小土豆
+  last_updated_on: 2021-06-25 08:46:40.000000000 Z
+- name: com.squareup.okio:okio
+  description: A modern I/O API for Java
+  version: 1.17.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+  last_updated_by: 咪了个喵的小土豆
+  last_updated_on: 2021-06-25 08:46:40.000000000 Z
+  vulnerabilities:
+  - name: Okio Signed to Unsigned Conversion Error vulnerability
+    cve_id: CVE-2023-3635
+    cve_url: https://github.com/advisories/GHSA-w33c-445m-f8w7
+    detected_date: Jul 14
+    severity: moderate
+    first_patched: 1.17.6
+- name: commons-codec:commons-codec
+  description: The Apache Commons Codec package contains simple encoder and decoders
+    for various formats such as Base64 and Hexadecimal
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+  last_updated_by: maguohao
+  last_updated_on: 2021-07-23 10:26:42.000000000 Z
+- name: commons-io:commons-io
+  description: The Apache Commons IO library contains utility classes
+  version: '2.4'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+  last_updated_by: maguohao
+  last_updated_on: 2021-07-23 10:26:42.000000000 Z
+  vulnerabilities:
+  - name: Path Traversal and Improper Input Validation in Apache Commons IO
+    cve_id: CVE-2021-29425
+    cve_url: https://github.com/advisories/GHSA-gwrp-pvrq-jmwv
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: '2.7'
+- name: dom4j:dom4j
+  description: Flexible XML framework for Java
+  version: 1.6.1
+  license: Plexus
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+  last_updated_by: maguohao2018
+  last_updated_on: 2021-05-11 11:40:16.000000000 Z
+  vulnerabilities:
+  - name: dom4j allows External Entities by default which might enable XXE attacks
+    cve_id: CVE-2020-10683
+    cve_url: https://github.com/advisories/GHSA-hwj3-m3p6-hj38
+    detected_date: Jan 28
+    severity: critical
+    first_patched: 
+  - name: Dom4j contains a XML Injection vulnerability
+    cve_id: CVE-2018-1000632
+    cve_url: https://github.com/advisories/GHSA-6pcc-3rfx-4gpm
+    detected_date: Jan 28
+    severity: high
+    first_patched: 
+- name: io.swagger:swagger-models
+  description: Examples and server integrations for generating the Swagger API Specification
+  version: 1.6.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+  last_updated_by: maguohao2018
+  last_updated_on: 2021-05-11 11:40:16.000000000 Z
+- name: io.swagger:swagger-parser
+  version: 1.0.51
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+  last_updated_by: maguohao2018
+  last_updated_on: 2021-05-11 11:40:16.000000000 Z
+  vulnerabilities:
+  - name: Deserialization of Untrusted Data in swagger-codegen
+    cve_id: CVE-2017-1000207
+    cve_url: https://github.com/advisories/GHSA-vgvf-9jh3-fg75
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.2.2
+- name: mysql:mysql-connector-java
+  description: MySQL JDBC Type 4 driver
+  license: GPL-3.0-only
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+  last_updated_by: maguohao2018
+  last_updated_on: 2021-05-11 11:40:16.000000000 Z
+- name: org.apache.commons:commons-collections4
+  description: The Apache Commons Collections package contains types that extend and
+    augment the Java Collections Framework
+  version: '4.1'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+  last_updated_by: maguohao
+  last_updated_on: 2021-07-23 10:26:42.000000000 Z
+- name: org.apache.commons:commons-exec
+  description: Apache Commons Exec is a library to reliably execute external processes
+    from within the JVM
+  version: '1.3'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+  last_updated_by: maguohao
+  last_updated_on: 2021-07-23 10:26:42.000000000 Z
+- name: org.apache.commons:commons-lang3
+  description: Apache Commons Lang
+  version: '3.9'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+  last_updated_by: maguohao
+  last_updated_on: 2021-07-23 10:26:42.000000000 Z
+- name: org.apache.commons:commons-text
+  description: Apache Commons Text is a library focused on algorithms working on strings
+  version: '1.8'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+  last_updated_by: maguohao
+  last_updated_on: 2021-07-23 10:26:42.000000000 Z
+  vulnerabilities:
+  - name: Arbitrary code execution in Apache Commons Text
+    cve_id: CVE-2022-42889
+    cve_url: https://github.com/advisories/GHSA-599f-7c49-w659
+    detected_date: Oct 14
+    severity: critical
+    first_patched: 1.10.0
+- name: org.apache.poi:poi
+  description: Apache POI - Java API To Access Microsoft Format Files
+  version: '3.15'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+  last_updated_by: maguohao
+  last_updated_on: 2021-07-23 10:26:42.000000000 Z
+  vulnerabilities:
+  - name: Denial of Service in Apache POI
+    cve_id: CVE-2017-12626
+    cve_url: https://github.com/advisories/GHSA-523c-xh4g-mh5m
+    detected_date: Aug 22
+    severity: high
+    first_patched: '3.17'
+  - name: 'Improper Restriction of XML External Entity Reference in Apache POI '
+    cve_id: CVE-2019-12415
+    cve_url: https://github.com/advisories/GHSA-9jwc-q6j3-8g9g
+    detected_date: Jun 29
+    severity: moderate
+    first_patched: 4.1.1
+- name: org.apache.poi:poi-ooxml
+  description: Apache POI - Java API To Access Microsoft Format Files
+  version: '3.15'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+  last_updated_by: maguohao
+  last_updated_on: 2021-07-23 10:26:42.000000000 Z
+- name: org.flywaydb:flyway-core
+  description: 'Flyway: Database Migrations Made Easy'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+  last_updated_by: maguohao
+  last_updated_on: 2021-07-23 10:26:42.000000000 Z
+- name: org.jsoup:jsoup
+  description: Jsoup is a Java library for working with real-world HTML
+  version: 1.10.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+  last_updated_by: maguohao
+  last_updated_on: 2021-07-23 10:26:42.000000000 Z
+  vulnerabilities:
+  - name: Uncaught Exception in jsoup
+    cve_id: CVE-2021-37714
+    cve_url: https://github.com/advisories/GHSA-m72m-mhq2-9p6c
+    detected_date: Aug 24
+    severity: high
+    first_patched: 1.14.2
+  - name: jsoup may not sanitize code injection XSS attempts if SafeList.preserveRelativeLinks
+      is enabled
+    cve_id: CVE-2022-36033
+    cve_url: https://github.com/advisories/GHSA-gp7f-rwcx-9369
+    detected_date: Sep 2
+    severity: moderate
+    first_patched: 1.15.3
+- name: org.mybatis.spring.boot:mybatis-spring-boot-starter
+  description: Spring Boot Support for MyBatis
+  version: 2.1.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+  last_updated_by: maguohao
+  last_updated_on: 2021-07-23 10:26:42.000000000 Z
+- name: org.projectlombok:lombok
+  description: 'Spice up your java: Automatic Resource Management'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+  last_updated_by: maguohao
+  last_updated_on: 2021-07-23 10:26:42.000000000 Z
+- name: org.springframework.boot:spring-boot-configuration-processor
+  description: Spring Boot Configuration Processor
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+  last_updated_by: maguohao
+  last_updated_on: 2021-07-23 10:26:42.000000000 Z
+- name: org.springframework.boot:spring-boot-starter
+  description: Core starter
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+  last_updated_by: maguohao
+  last_updated_on: 2021-07-23 10:26:42.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-actuator
+  description: Starter for using Spring Boot's Actuator which provides production
+    ready features to help you monitor and manage your application
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+  last_updated_by: maguohao
+  last_updated_on: 2021-07-23 10:26:42.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-aop
+  description: Starter for aspect-oriented programming with Spring AOP and AspectJ
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+  last_updated_by: maguohao
+  last_updated_on: 2021-07-23 10:26:42.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-jetty
+  description: Starter for using Jetty as the embedded servlet container
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+  last_updated_by: maguohao
+  last_updated_on: 2021-07-23 10:26:42.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-mail
+  description: Starter for using Java Mail and Spring Framework's email sending support
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+  last_updated_by: maguohao
+  last_updated_on: 2021-07-23 10:26:42.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+  last_updated_by: maguohao
+  last_updated_on: 2021-07-23 10:26:42.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-thymeleaf
+  description: Starter for building MVC web applications using Thymeleaf views
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+  last_updated_by: maguohao
+  last_updated_on: 2021-07-23 10:26:42.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-web
+  description: Starter for building web, including RESTful, applications using Spring
+    MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+  last_updated_by: maguohao
+  last_updated_on: 2021-07-23 10:26:42.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-websocket
+  description: Starter for building WebSocket applications using Spring Framework's
+    WebSocket support
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+  last_updated_by: maguohao
+  last_updated_on: 2021-07-23 10:26:42.000000000 Z
+- name: "@fortawesome/fontawesome-svg-core"
+  description: The iconic font, CSS, and SVG framework
+  package_url: https://www.npmjs.com/@fortawesome/fontawesome-svg-core
+  version: 1.2.26
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16644/default_50c9ed1615a25628505ab53def64d82450ced26b.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: maguohao2018
+  last_updated_on: 2021-02-10 08:53:44.000000000 Z
+- name: "@fortawesome/free-brands-svg-icons"
+  description: The iconic font, CSS, and SVG framework
+  package_url: https://www.npmjs.com/@fortawesome/free-brands-svg-icons
+  version: 5.13.0
+  license: CC-BY-4.0,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18314/default_8c7316b1ad57adb78204233fc4608152c3b49ac6.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: maguohao2018
+  last_updated_on: 2021-02-10 08:53:44.000000000 Z
+- name: "@fortawesome/free-regular-svg-icons"
+  description: The iconic font, CSS, and SVG framework
+  package_url: https://www.npmjs.com/@fortawesome/free-regular-svg-icons
+  version: 5.12.0
+  license: CC-BY-4.0,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18157/default_63cbe387694d6d77dde61448de98c6bd2a9b18de.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: maguohao2018
+  last_updated_on: 2021-02-10 08:53:44.000000000 Z
+- name: "@fortawesome/free-solid-svg-icons"
+  description: The iconic font, CSS, and SVG framework
+  package_url: https://www.npmjs.com/@fortawesome/free-solid-svg-icons
+  version: 5.12.0
+  license: CC-BY-4.0,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16683/default_6dad4e42e12d47cc6edfbdea036dae12f91abebb.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: maguohao2018
+  last_updated_on: 2021-02-10 08:53:44.000000000 Z
+- name: "@fortawesome/vue-fontawesome"
+  description: Official Vue component for Font Awesome 5
+  package_url: https://www.npmjs.com/@fortawesome/vue-fontawesome
+  version: 0.1.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18329/default_fcb0000f89932f65c58527fdec74a1b27eb78a83.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: maguohao
+  last_updated_on: 2021-09-13 10:51:09.000000000 Z
+- name: "@vue/cli-plugin-babel"
+  description: Babel plugin for vue-cli
+  package_url: https://www.npmjs.com/@vue/cli-plugin-babel
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16006/default_af9df0bc9fa88191d2fe609204c5bd7599c1a797.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: maguohao2018
+  last_updated_on: 2021-02-10 08:53:44.000000000 Z
+- name: "@vue/cli-plugin-eslint"
+  description: Eslint plugin for vue-cli
+  package_url: https://www.npmjs.com/@vue/cli-plugin-eslint
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16035/default_b8a893285867e41b5fc4a7631d8fc2da834d778c.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: maguohao2018
+  last_updated_on: 2021-02-10 08:53:44.000000000 Z
+- name: "@vue/cli-service"
+  description: Local service for vue-cli projects
+  package_url: https://www.npmjs.com/@vue/cli-service
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15990/default_cbd6c289400672b291755183817e9dd6abe1a612.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: maguohao2018
+  last_updated_on: 2021-02-10 08:53:44.000000000 Z
+- name: babel-eslint
+  description: Custom parser for ESLint
+  package_url: https://www.npmjs.com/babel-eslint
+  version: 10.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15803/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: maguohao2018
+  last_updated_on: 2021-02-10 08:53:44.000000000 Z
+- name: core-js
+  description: Standard library
+  package_url: https://www.npmjs.com/core-js
+  version: 3.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15869/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: maguohao2018
+  last_updated_on: 2021-02-10 08:53:44.000000000 Z
+- name: element-ui
+  description: A Component Library for Vue.js
+  package_url: https://www.npmjs.com/element-ui
+  version: 2.13.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16240/default_5dfc1810d0882ab844578a326bb8bf19e45e7227.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: maguohao2018
+  last_updated_on: 2021-02-10 08:53:44.000000000 Z
+- name: eslint-plugin-vue
+  description: Official ESLint plugin for Vue.js
+  package_url: https://www.npmjs.com/eslint-plugin-vue
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15950/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: maguohao2018
+  last_updated_on: 2021-02-10 08:53:44.000000000 Z
+- name: js-base64
+  description: Yet another Base64 transcoder in pure-JS
+  package_url: https://www.npmjs.com/js-base64
+  version: 3.4.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16984/default_caea01ce44a5fd1bb200d8fc0f8f2a1695b4e569.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: maguohao2018
+  last_updated_on: 2021-02-10 08:53:44.000000000 Z
+- name: less-loader
+  description: A Less loader for webpack. Compiles Less to CSS
+  package_url: https://www.npmjs.com/less-loader
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15989/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: 咪了个喵的小土豆
+  last_updated_on: 2021-06-15 10:53:28.000000000 Z
+- name: md5
+  description: Js function for hashing messages with MD5
+  package_url: https://www.npmjs.com/md5
+  version: 2.3.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16342/default_c47f6a56d74fae4d4404d77067b2fa35da6f1924.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: maguohao2018
+  last_updated_on: 2021-02-10 08:53:44.000000000 Z
+- name: mockjs
+  description: 生成随机数据 &amp; 拦截 Ajax 请求
+  package_url: https://www.npmjs.com/mockjs
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16769/default_7db4a32a5e03bf4595c23f25ef5a0d1b2fd53479.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: maguohao2018
+  last_updated_on: 2021-02-10 08:53:44.000000000 Z
+  vulnerabilities:
+  - name: mockjs vulnerable to Prototype Pollution via the Util.extend function
+    cve_id: CVE-2023-26158
+    cve_url: https://github.com/advisories/GHSA-mh8j-9jvh-gjf6
+    detected_date: Dec 18
+    severity: high
+    first_patched: 
+- name: sha.js
+  description: Streamable SHA hashes in pure javascript
+  package_url: https://www.npmjs.com/sha.js
+  version: 2.4.11
+  license: MIT,BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17831/default_369b3bf3ef062123a581e4817f09cb0004de7ff6.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: maguohao2018
+  last_updated_on: 2021-02-10 08:53:44.000000000 Z
+- name: vue
+  description: Vue
+  package_url: https://www.npmjs.com/vue
+  version: 2.6.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15844/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: maguohao2018
+  last_updated_on: 2021-02-10 08:53:44.000000000 Z
+- name: vue-i18n
+  description: Internationalization plugin for Vue.js
+  package_url: https://www.npmjs.com/vue-i18n
+  version: 8.15.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16963/default_ebf16e0c8af5e95030933d9e01479224b6665289.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: maguohao
+  last_updated_on: 2021-09-13 10:51:09.000000000 Z
+- name: vue-router
+  description: Official router for Vue.js 2
+  package_url: https://www.npmjs.com/vue-router
+  version: 3.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15969/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: maguohao
+  last_updated_on: 2021-09-13 10:51:09.000000000 Z
+- name: vue-template-compiler
+  description: Template compiler for Vue 2.0
+  package_url: https://www.npmjs.com/vue-template-compiler
+  version: 2.6.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15850/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: maguohao
+  last_updated_on: 2021-09-13 10:51:09.000000000 Z
+- name: vuedraggable
+  description: Draggable component for vue
+  package_url: https://www.npmjs.com/vuedraggable
+  version: 2.23.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17468/default_911633508f32a5d5016c37ab38144cd661ceb682.png
+  detection_source_url: https://github.com/2lambda123/riskscanner/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: maguohao2018
+  last_updated_on: 2021-04-01 07:27:00.000000000 Z
